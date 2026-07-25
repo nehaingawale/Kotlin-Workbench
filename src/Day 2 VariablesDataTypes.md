@@ -8,32 +8,27 @@ Variables are used to store data.
 - Mutable (value can be changed)
 
 Example:
-```kotlin
 var name = "Neha"
 name = "Rahul"
-```
 
 # val
 - Immutable (value cannot be changed)
 
 Example:
-```kotlin
 val country = "India"
-```
 
----
 
 ## Data Types
 
-| Data Type | Example |
-|-----------|---------|
-| Int | 25 |
-| Double | 95.5 |
-| Float | 10.5f |
-| Long | 123456789L |
-| Boolean | true |
-| Char | 'A' |
-| String | "Neha" |
+Data Type  Example
+
+ Int -> 25
+ Double -> 95.5
+ Float -> 10.5f
+ Long -> 123456789L
+ Boolean -> true
+ Char -> 'A'
+ String -> "Neha"
 
 
 
@@ -48,34 +43,27 @@ val country = "India"
 # Logical Operators
 `&&  ||  !`
 
----
 
-## User Input
 
-Use `readln()` to take input.
+# User Input
+
+Use readln() to take input.
 
 String Input:
-```kotlin
 val name = readln()
-```
+
 
 Integer Input:
-```kotlin
+
 val age = readln().toInt()
-```
+
 
 Double Input:
-```kotlin
 val marks = readln().toDouble()
-```
 
----
-
-## Key Points
-
-- `var` → Value can change.
-- `val` → Value cannot change.
+- var -> Value can change.
+- val -> Value cannot change.
 - Data types define the type of data.
 - Operators perform calculations and comparisons.
-- `readln()` is used to take user input.
+- readln() is used to take user input.
 
