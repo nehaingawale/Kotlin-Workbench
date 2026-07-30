@@ -66,3 +66,6 @@ Can store state (properties     | Cannot store state with backing fields
 with backing fields)	
 Single inheritance	            | Multiple interfaces can be implemented
 Used for closely related classes|Used to define capabilities or behavior
+
+## Data Class :- Used to store the data
+    Automatically Genertes the Constructor, toString(), equals(), hashCOde(), copy()
